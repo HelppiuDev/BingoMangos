@@ -1,0 +1,372 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+
+
+
+body {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        217deg,#11369e,rgb(34 115 229 / 10%) 70.71%), linear-gradient(127deg, rgb(21 130 192), rgba(0, 204, 255, 0) 70.71%),
+      linear-gradient(336deg, #0e1d47, rgb(10 144 220) 70.71%);
+    font-family:  'Poppins';
+    padding-top: 0;
+    margin: 0;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  * {
+    box-sizing: border-box;
+    padding: 0;
+  }
+  button,
+  input {
+    border: none;
+    outline: none;
+  }
+  .logo_container{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    height: 200px;
+    padding: 5%;
+    margin-top: 0;
+    padding-top: 1%;
+    align-items: center;
+
+  }
+  header{
+    padding: 5%;
+    display: flex;
+    height: 2%;
+    padding-bottom: 0;
+  }
+  h1{
+    font-size: 35pt;
+    color: #FEE000;
+    line-height: 35pt;
+    text-align: center;
+
+  }
+  h2{
+    font-size: 20pt;
+    color: #FEE000;
+  }
+  h3{
+    font-size: 15pt;
+    color: white;
+  }
+  .logobingo{
+    display: flex;
+    height: 300px;
+  }
+  .logomango{
+    display: flex;
+    height: 200px;
+  }
+  .container_steps{
+    display: flex;
+    padding: 5%;
+    flex-direction: row;
+  }
+  .steps{
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    justify-content: left;
+    width: 40%;
+  }
+  .pasos{
+    margin: 1%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .container_icon{
+    display: flex;
+    width: 10%;
+  }
+  .text_container{
+    display: flex;
+    width: 90%;
+  }
+  .icon{
+    display: flex;
+    margin: 1%;
+    border-radius: 50%;
+    background-color: #FEE000;
+    color: #0E1D47;
+    width: 36px;
+    height: 36px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+  }
+  .form{    
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .container_form{
+    margin: 2%;
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    border-radius: 2%;
+    display: flex;
+    padding: 5%;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 5px 5px 5px 5px rgba(198, 194, 194, 0.49);
+    -webkit-box-shadow: 1px -2px 24px 0px rgba(77,74,74,0.2);
+    -moz-box-shadow: 1px -2px 24px 0px rgba(188, 188, 188, 0.2);
+  }
+  .input_contact{
+    display: flex;
+    height: 100%;
+    background-color: #F3F3F3;
+    width: 100%;
+    color:#303030;
+    margin: 3%;
+    padding: 2%;
+    border-radius: 5px;
+    text-align: start;
+    border-color: none;
+  }
+  .checkbox_container{
+    font-size: 10pt;
+    display: flex;
+    margin: 2%;
+  }
+  #tyc{
+    margin: 1%;
+  }
+  .button{
+    cursor: pointer;
+    display: inline-flex;
+    position: relative;
+    background-color: #0E1D47;
+    color: #FEE000;
+    padding: 1rem 1.25rem;
+    border-radius: .5rem;
+    transition: .3s;
+    justify-content: center;
+    align-items: center;
+    column-gap: .75rem;
+    margin: 2%;
+  }
+  a {
+    text-decoration: none;
+  }
+  .second_container{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    padding: 5%;
+    width: 100%;
+    padding-top: 0;
+  }
+.left_container{
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    width: 100%;
+    border-radius: .5rem;
+    background-color: #262762;
+
+}
+  .container_premios_list{
+    display: flex;
+    flex-direction: row;
+    padding: 2%;
+    justify-content: space-between;
+    width: 100%;
+
+  }
+  .listadopremios{
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    margin: 2%;
+    width: 40%;
+  }
+  .img_premios{
+    display: flex;
+    width: 40%;
+    position: relative;
+    justify-content: center;
+    margin: 5%;
+}
+.trofeo{
+    width: 400px;
+    height: 400px;
+}
+  .premios_list{
+    margin: 2%;
+  }
+  .invitados_container{
+    display: flex;
+    flex-direction: row;
+    margin: 3%;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+  }
+  .infofecha{
+    width: 60%;
+  }
+  .box_invitados{
+    display: flex;
+    flex-direction: column;
+    font-size: 50pt;
+    color: white;
+    font-weight: 900;
+    margin: 4%;
+    height: 0.5%;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .text_invitados{
+    font-size: 10pt;
+  }
+  .box_fecha{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #262762;
+    color: #F3F3F3;
+    padding: 3%;
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+    margin: 5%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    height: 180px;
+  }
+  .box_hora{
+    background-color: #FEE000;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #0E1D47;
+    font-weight: 900;
+    border-radius: 0px 0px 10px 10px;
+    padding: 2%;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    text-align: center;
+  }
+  .fecha{
+    text-align: center;
+    display: flex;
+    text-align: center;
+    font-size: 70pt;
+    color: #F3F3F3;
+    position: relative;
+    font-weight: 900;
+    height: 120px;
+    justify-content: center;
+    width: 100%;
+  }
+  .mes{
+    text-align: center;
+    font-size: 20pt;
+    color: white;
+    display: flex;
+    height: 20%;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+  }
+  .hora{
+    color: #0E1D47;
+  }
+  .fechas_container{
+    display: flex;
+    flex-direction: row;
+    padding: 2%;
+    justify-content: space-between;
+  }
+  .infoinvitados{
+margin: 5%;
+  }
+
+  .footer_container{
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+
+  }
+  .redes{
+    display: flex;
+    color: white;
+    font-size: 15pt;
+    margin: 5%;
+    align-items: center;
+  }
+  .icon_redes{
+    margin: 5%;
+  }
+
+
+  @media screen and (max-width: 1200px) {
+    .container_steps{
+        flex-direction: column;
+    }
+    .steps{
+        width: 100%;
+        justify-content: center;
+
+    }
+    .logobingo{
+        display: flex;
+        height: 150px;
+      }
+      .logomango{
+        display: flex;
+        height: 100px;
+      }
+      .form{
+        width: 100%;
+      }
+      .container_form{
+        width: 90%;
+      }
+      .second_container{
+        flex-direction: column;
+      }
+      .listadopremios{
+        width: 100%;
+      }
+      .container_premios_list{
+        flex-direction: column;
+      }
+      .img_premios{
+        height: 40%;
+        width: 90%;
+      }
+      .premios_list{
+        text-align: center;
+      }
+      .invitados_container{
+        width: 100%;
+        flex-direction: column;
+      }
+      .footer_container{
+        flex-direction: column;
+      }
+      .redes{
+        font-size: 15pt;
+        justify-content: center;
+      }
+  }
+
